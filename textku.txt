@@ -1,0 +1,18 @@
+    1  ./app.bin
+    2  sudo ./app.bin
+    3  sudo passwd <nama_user>
+    4  sudo passwd <sukrimardana>
+    5  sudo passwd sukrimardana
+    6  clear
+    7  whoami
+    8  scrot --version 
+    9  git add . && git commit -m "Percobaan push dari akun lain" && git remote set-url origin https://github.com/realitainformasiterkini-a11y/Vps-remote-dekstop.git && git push origin main
+   10  history
+   11  history > textku.txt
+
+docker run -it -v $(pwd)/data:/home/sukrimardana xfce-crd-custom
+
+git add data
+git commit -m "Simpan data remote desktop dan user"
+git push
+

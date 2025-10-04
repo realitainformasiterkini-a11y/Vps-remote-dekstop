@@ -1,0 +1,71 @@
+# Tutorial Lengkap Docker XFCE + Chrome Remote Desktop
+
+## 1. Setup Awal
+### a. Build Docker Image
+```bash
+docker build -t xfce-crd-custom .
+```
+
+### b. Perbaiki Permission Folder Data
+```bash
+sudo chown -R 1001:1001 data
+sudo chmod -R 700 data
+```
+
+## 2. Menjalankan Container
+### a. Jalankan Container dengan Volume
+```bash
+docker run -it --privileged -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom /bin/bash
+```
+
+### b. Jalankan Setup app.bin di Dalam Container
+```bash
+chmod +x /app.bin
+/app.bin
+```
+Ikuti instruksi setup Chrome Remote Desktop (CRD):
+- Masukkan kode otorisasi CRD dari https://remotedesktop.google.com
+- Masukkan username, password, dan PIN
+
+## 3. Commit Perubahan Data XFCE
+### a. Keluar dari Container
+Tekan `exit` di shell container.
+
+### b. Commit dan Push Data
+```bash
+git add data
+git commit -m "Update pengaturan XFCE dan aplikasi"
+git push
+```
+
+## 4. Clone dan Jalankan di Akun Lain
+### a. Clone Repository
+```bash
+git clone <repo-url>
+cd Vps-remote-dekstop
+```
+
+### b. Jalankan Docker dengan Volume Data
+```bash
+docker run -it --privileged -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom /bin/bash
+```
+
+### c. Jalankan Setup app.bin Jika Perlu
+```bash
+chmod +x /app.bin
+/app.bin
+```
+
+## 5. Tips Penting
+- Pastikan kode otorisasi CRD selalu baru saat setup ulang.
+- Jangan commit file rahasia (host#*.json) ke repository.
+- Semua pengaturan XFCE, aplikasi, dan file user tersimpan di folder `data`.
+- Untuk update, ulangi proses commit dan push dari host.
+
+## 6. Troubleshooting
+- Jika permission error: ulangi perintah chown dan chmod di atas.
+- Jika push ditolak: hapus file rahasia dan bersihkan riwayat commit.
+- Jika container exit: jalankan ulang perintah docker run di atas.
+
+---
+Tutorial ini menjamin setup dan clone Docker XFCE + CRD tanpa error dan data tetap aman di repository.

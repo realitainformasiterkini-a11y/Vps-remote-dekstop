@@ -1,0 +1,378 @@
+Xsession: X session started for sukrimardana at Tue Sep 30 00:29:50 UTC 2025
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+localuser:sukrimardana being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=sukrimardana
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting LD_LIBRARY_PATH=/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/sukrimardana
+dbus-update-activation-environment: setting PULSE_SINK=chrome_remote_desktop_session
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-JKSBdZgVC2,guid=ba072c6fdd151529986dc3cb68db247e
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=sukrimardana
+dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+dbus-update-activation-environment: setting _=/opt/google/chrome-remote-desktop/chrome-remote-desktop
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting PULSE_RUNTIME_PATH=/tmp/pyxdg-runtime-dir-fallback-sukrimardana/crd_audio#IqqFUlS3wj
+dbus-update-activation-environment: setting GDK_BACKEND=x11
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/chromoting.sukrimardana.ssh_auth_sock
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting PIPEWIRE_REMOTE=crd_audio#IqqFUlS3wj/pipewire
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/home/sukrimardana/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+dbus-update-activation-environment: setting PWD=/home/sukrimardana
+dbus-update-activation-environment: setting CHROME_REMOTE_DESKTOP_SESSION=1
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/gnome:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:469): xfce4-session-WARNING **: 00:29:50.389: No SSH authentication agent found
+gpg-agent[619]: directory '/home/sukrimardana/.gnupg' created
+gpg-agent[619]: directory '/home/sukrimardana/.gnupg/private-keys-v1.d' created
+gpg-agent[623]: gpg-agent (GnuPG) 2.4.4 started
+
+(xfwm4:624): xfwm4-WARNING **: 00:29:51.089: Another compositing manager is running on screen 0
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+Xlib:  extension "DPMS" missing on display ":20.0".
+
+(xfce4-power-manager:692): xfce4-power-manager-WARNING **: 00:29:51.797: Monitor is not DPMS capable
+xscreensaver-systemd: 00:29:51: inhibit sleep failed: Launch helper exited with unknown return code 1
+xscreensaver: 00:29:51: pid 730: xscreensaver-systemd exited unexpectedly with status 1
+
+** (light-locker:732): ERROR **: 00:29:51.873: session_id is not set, is /proc mounted with hidepid>0?
+
+(polkit-gnome-authentication-agent-1:707): polkit-gnome-1-WARNING **: 00:29:51.906: Unable to determine the session we are in: No session for pid 707
+
+** (xiccd:691): WARNING **: 00:29:51.929: EDID is empty
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+
+** (xiccd:691): CRITICAL **: 00:29:52.035: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+xfce4-panel-Message: 00:29:52.223: Plugin "(null)-7" was not found and has been removed from the configuration
+libclock-Message: 00:29:52.337: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:671): libclock-WARNING **: 00:29:52.337: could not instantiate a sleep monitor
+Xsession: X session started for sukrimardana at Tue Sep 30 00:34:44 UTC 2025
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+localuser:sukrimardana being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=sukrimardana
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting LD_LIBRARY_PATH=/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/sukrimardana
+dbus-update-activation-environment: setting PULSE_SINK=chrome_remote_desktop_session
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-lA38Is05CC,guid=fcae375cd82b4ea146ef199b68db25a4
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=sukrimardana
+dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+dbus-update-activation-environment: setting _=/opt/google/chrome-remote-desktop/chrome-remote-desktop
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting PULSE_RUNTIME_PATH=/tmp/pyxdg-runtime-dir-fallback-sukrimardana/crd_audio#Yj4l22vX9d
+dbus-update-activation-environment: setting GDK_BACKEND=x11
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/chromoting.sukrimardana.ssh_auth_sock
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting PIPEWIRE_REMOTE=crd_audio#Yj4l22vX9d/pipewire
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/home/sukrimardana/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+dbus-update-activation-environment: setting PWD=/home/sukrimardana
+dbus-update-activation-environment: setting CHROME_REMOTE_DESKTOP_SESSION=1
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/gnome:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:469): xfce4-session-WARNING **: 00:34:44.202: No SSH authentication agent found
+
+(xfwm4:616): xfwm4-WARNING **: 00:34:44.925: Another compositing manager is running on screen 0
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+Xlib:  extension "DPMS" missing on display ":20.0".
+
+(xfce4-power-manager:687): xfce4-power-manager-WARNING **: 00:34:45.580: Monitor is not DPMS capable
+xscreensaver-systemd: 00:34:45: inhibit sleep failed: Launch helper exited with unknown return code 1
+xscreensaver: 00:34:45: pid 724: xscreensaver-systemd exited unexpectedly with status 1
+
+** (light-locker:713): ERROR **: 00:34:45.667: session_id is not set, is /proc mounted with hidepid>0?
+
+(polkit-gnome-authentication-agent-1:698): polkit-gnome-1-WARNING **: 00:34:45.692: Unable to determine the session we are in: No session for pid 698
+
+** (xiccd:686): WARNING **: 00:34:45.876: EDID is empty
+
+** (xiccd:686): CRITICAL **: 00:34:45.932: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+xfce4-panel-Message: 00:34:46.107: Plugin "(null)-7" was not found and has been removed from the configuration
+libclock-Message: 00:34:46.214: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:665): libclock-WARNING **: 00:34:46.215: could not instantiate a sleep monitor
+Xsession: X session started for sukrimardana at Tue Sep 30 00:39:06 UTC 2025
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+localuser:sukrimardana being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=sukrimardana
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting LD_LIBRARY_PATH=/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/sukrimardana
+dbus-update-activation-environment: setting PULSE_SINK=chrome_remote_desktop_session
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-fOGVCkpWH9,guid=eb2a5e1b1a796268b1da609668db26aa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=sukrimardana
+dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+dbus-update-activation-environment: setting _=/opt/google/chrome-remote-desktop/chrome-remote-desktop
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting PULSE_RUNTIME_PATH=/tmp/pyxdg-runtime-dir-fallback-sukrimardana/crd_audio#5MnADXLv6O
+dbus-update-activation-environment: setting GDK_BACKEND=x11
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/chromoting.sukrimardana.ssh_auth_sock
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting PIPEWIRE_REMOTE=crd_audio#5MnADXLv6O/pipewire
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/home/sukrimardana/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+dbus-update-activation-environment: setting PWD=/home/sukrimardana
+dbus-update-activation-environment: setting CHROME_REMOTE_DESKTOP_SESSION=1
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/gnome:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:471): xfce4-session-WARNING **: 00:39:06.963: No SSH authentication agent found
+
+(xfwm4:630): xfwm4-WARNING **: 00:39:07.697: Another compositing manager is running on screen 0
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+xscreensaver-systemd: 00:39:08: inhibit sleep failed: Launch helper exited with unknown return code 1
+xscreensaver: 00:39:08: pid 722: xscreensaver-systemd exited unexpectedly with status 1
+Xlib:  extension "DPMS" missing on display ":20.0".
+
+(xfce4-power-manager:690): xfce4-power-manager-WARNING **: 00:39:08.390: Monitor is not DPMS capable
+
+(polkit-gnome-authentication-agent-1:706): polkit-gnome-1-WARNING **: 00:39:08.399: Unable to determine the session we are in: No session for pid 706
+
+** (light-locker:734): ERROR **: 00:39:08.458: session_id is not set, is /proc mounted with hidepid>0?
+
+** (xiccd:689): WARNING **: 00:39:08.483: EDID is empty
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+
+** (xiccd:689): CRITICAL **: 00:39:08.592: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+xfce4-panel-Message: 00:39:08.739: Plugin "(null)-7" was not found and has been removed from the configuration
+libclock-Message: 00:39:08.847: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:668): libclock-WARNING **: 00:39:08.847: could not instantiate a sleep monitor
+
+(wrapper-2.0:845): xfce4-power-manager-plugin-WARNING **: 00:39:09.664: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+Xsession: X session started for sukrimardana at Tue Sep 30 00:43:14 UTC 2025
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+localuser:sukrimardana being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=sukrimardana
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting LD_LIBRARY_PATH=/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/sukrimardana
+dbus-update-activation-environment: setting PULSE_SINK=chrome_remote_desktop_session
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-Cd2xtvFwvR,guid=e7d47ea916de1ffdc467518568db27a2
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=sukrimardana
+dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+dbus-update-activation-environment: setting _=/opt/google/chrome-remote-desktop/chrome-remote-desktop
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting PULSE_RUNTIME_PATH=/tmp/pyxdg-runtime-dir-fallback-sukrimardana/crd_audio#2Hpat4qm-8
+dbus-update-activation-environment: setting GDK_BACKEND=x11
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/chromoting.sukrimardana.ssh_auth_sock
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting PIPEWIRE_REMOTE=crd_audio#2Hpat4qm-8/pipewire
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/home/sukrimardana/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+dbus-update-activation-environment: setting PWD=/home/sukrimardana
+dbus-update-activation-environment: setting CHROME_REMOTE_DESKTOP_SESSION=1
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/gnome:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:472): xfce4-session-WARNING **: 00:43:14.954: No SSH authentication agent found
+
+(xfwm4:627): xfwm4-WARNING **: 00:43:15.675: Another compositing manager is running on screen 0
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+xscreensaver-systemd: 00:43:16: inhibit sleep failed: Launch helper exited with unknown return code 1
+
+** (light-locker:719): ERROR **: 00:43:16.382: session_id is not set, is /proc mounted with hidepid>0?
+xscreensaver: 00:43:16: pid 730: xscreensaver-systemd exited unexpectedly with status 1
+Xlib:  extension "DPMS" missing on display ":20.0".
+
+(xfce4-power-manager:690): xfce4-power-manager-WARNING **: 00:43:16.392: Monitor is not DPMS capable
+
+(polkit-gnome-authentication-agent-1:708): polkit-gnome-1-WARNING **: 00:43:16.482: Unable to determine the session we are in: No session for pid 708
+
+** (xiccd:689): WARNING **: 00:43:16.606: EDID is empty
+
+** (xiccd:689): CRITICAL **: 00:43:16.651: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+xfce4-panel-Message: 00:43:16.830: Plugin "(null)-7" was not found and has been removed from the configuration
+libclock-Message: 00:43:16.927: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:668): libclock-WARNING **: 00:43:16.928: could not instantiate a sleep monitor
+
+(wrapper-2.0:875): xfce4-power-manager-plugin-WARNING **: 00:43:17.617: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+
+(xfce4-session:472): xfce4-session-WARNING **: 00:43:17.743: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:472): xfce4-session-WARNING **: 00:43:17.754: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:472): xfce4-session-WARNING **: 00:43:17.764: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Xsession: X session started for sukrimardana at Tue Sep 30 02:06:09 UTC 2025
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+localuser:sukrimardana being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=sukrimardana
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting LD_LIBRARY_PATH=/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/sukrimardana
+dbus-update-activation-environment: setting PULSE_SINK=chrome_remote_desktop_session
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-49Ez77goHD,guid=566849f3d2cb86c0c2a9f75268db3b13
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=sukrimardana
+dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+dbus-update-activation-environment: setting _=/opt/google/chrome-remote-desktop/chrome-remote-desktop
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting PULSE_RUNTIME_PATH=/tmp/pyxdg-runtime-dir-fallback-sukrimardana/crd_audio#bgVfRP-QnR
+dbus-update-activation-environment: setting GDK_BACKEND=x11
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/chromoting.sukrimardana.ssh_auth_sock
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting PIPEWIRE_REMOTE=crd_audio#bgVfRP-QnR/pipewire
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/home/sukrimardana/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+dbus-update-activation-environment: setting PWD=/home/sukrimardana
+dbus-update-activation-environment: setting CHROME_REMOTE_DESKTOP_SESSION=1
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/gnome:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:469): xfce4-session-WARNING **: 02:06:13.529: No SSH authentication agent found
+Xsession: X session started for sukrimardana at Tue Sep 30 02:09:57 UTC 2025
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+localuser:sukrimardana being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=sukrimardana
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting LD_LIBRARY_PATH=/usr/lib/mesa-diverted/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/x86_64-linux-gnu/gallium-pipe
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/sukrimardana
+dbus-update-activation-environment: setting PULSE_SINK=chrome_remote_desktop_session
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-EFb4m0jusF,guid=e375f2bf9a30db196fc6323d68db3bf5
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=sukrimardana
+dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+dbus-update-activation-environment: setting _=/opt/google/chrome-remote-desktop/chrome-remote-desktop
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting PULSE_RUNTIME_PATH=/tmp/pyxdg-runtime-dir-fallback-sukrimardana/crd_audio#DKRFSwKVq4
+dbus-update-activation-environment: setting GDK_BACKEND=x11
+dbus-update-activation-environment: setting DISPLAY=:20
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting XAUTHORITY=/home/sukrimardana/.Xauthority
+dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/chromoting.sukrimardana.ssh_auth_sock
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting PIPEWIRE_REMOTE=crd_audio#DKRFSwKVq4/pipewire
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/home/sukrimardana/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+dbus-update-activation-environment: setting PWD=/home/sukrimardana
+dbus-update-activation-environment: setting CHROME_REMOTE_DESKTOP_SESSION=1
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/gnome:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:472): xfce4-session-WARNING **: 02:09:57.312: No SSH authentication agent found
+
+(xfwm4:632): xfwm4-WARNING **: 02:09:58.384: Unsupported GL renderer (llvmpipe (LLVM 20.1.2, 256 bits)).
+xscreensaver-systemd: 02:10:01: inhibit sleep failed: Launch helper exited with unknown return code 1
+xscreensaver: 02:10:01: pid 720: xscreensaver-systemd exited unexpectedly with status 1
+libclock-Message: 02:10:01.723: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:678): libclock-WARNING **: 02:10:01.723: could not instantiate a sleep monitor
+Xlib:  extension "DPMS" missing on display ":20.0".
+
+(xfce4-power-manager:698): xfce4-power-manager-WARNING **: 02:10:02.660: Monitor is not DPMS capable
+
+** (light-locker:782): ERROR **: 02:10:03.258: session_id is not set, is /proc mounted with hidepid>0?
+
+(polkit-gnome-authentication-agent-1:728): polkit-gnome-1-WARNING **: 02:10:03.705: Unable to determine the session we are in: No session for pid 728
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-session:472): xfce4-session-WARNING **: 02:10:05.791: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:472): xfce4-session-WARNING **: 02:10:05.802: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:472): xfce4-session-WARNING **: 02:10:05.816: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:755): Gtk-WARNING **: 02:10:05.836: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+** (xiccd:697): WARNING **: 02:10:06.113: EDID is empty
+
+** (xiccd:697): CRITICAL **: 02:10:06.123: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(xfce4-panel:678): xfce4-panel-CRITICAL **: 02:10:50.212: panel-window.c:2346 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+** Message: 02:25:56.691: No existing settings file, using default settings
+** Message: 02:25:56.709: Using UDEV
+** Message: 02:25:59.428: Using gstreamer transcoder.
+
+(Thunar:683): GLib-GIO-CRITICAL **: 02:26:07.425: GFileInfo created without standard::size
+
+(Thunar:683): GLib-GIO-CRITICAL **: 02:26:07.425: file ../../../gio/gfileinfo.c: line 1845 (g_file_info_get_size): should not be reached

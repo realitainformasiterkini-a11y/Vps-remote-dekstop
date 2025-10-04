@@ -1,0 +1,117 @@
+# Tutorial Lengkap Docker XFCE + Chrome Remote Desktop (CRD)
+
+## 1. Konsep & Tujuan
+- Menyimpan semua pengaturan, aplikasi, dan file XFCE secara persistent di folder `data`.
+- Menggunakan Docker agar environment bisa di-clone dan dijalankan di akun lain.
+- Mengakses desktop Linux secara remote via Chrome Remote Desktop.
+
+## 2. Struktur Project
+- `Dockerfile`: Image XFCE + CRD + user custom
+- `app.bin`: Script setup CRD
+- `data/`: Folder persistent home user XFCE
+- `tutor-docker.txt`: Tutorial singkat
+- `tutor-docker2.txt`: Tutorial lengkap & troubleshooting
+
+## 3. Setup Awal
+### a. Build Docker Image
+```bash
+docker build -t xfce-crd-custom .
+```
+### b. Perbaiki Permission Folder Data
+```bash
+sudo chown -R 1001:1001 data
+sudo chmod -R 700 data
+```
+
+## 4. Menjalankan Container
+### a. Jalankan Container
+```bash
+docker run -it --privileged -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom /bin/bash
+```
+### b. Jalankan Setup app.bin
+```bash
+chmod +x /app.bin
+/app.bin
+```
+- Masukkan kode otorisasi CRD dari https://remotedesktop.google.com
+- Masukkan username, password, dan PIN
+
+## 5. Commit & Push Perubahan
+### a. Keluar dari Container
+```bash
+exit
+```
+### b. Commit & Push Data
+```bash
+git add data
+git commit -m "Update pengaturan XFCE dan aplikasi"
+git push
+```
+
+## 6. Clone & Jalankan di Akun Lain
+### a. Clone Repository
+```bash
+git clone <repo-url>
+cd Vps-remote-dekstop
+```
+### b. Jalankan Docker
+```bash
+docker run -it --privileged -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom /bin/bash
+```
+### c. Setup app.bin jika perlu
+```bash
+chmod +x /app.bin
+/app.bin
+```
+
+## 7. Troubleshooting & Error
+### a. Permission Error (data tidak bisa diakses)
+**Solusi:**
+```bash
+sudo chown -R 1001:1001 data
+sudo chmod -R 700 data
+```
+### b. Push Ditolak (ada file rahasia)
+**Solusi:**
+```bash
+rm data/.config/chrome-remote-desktop/host#*.json
+git add data
+git commit -m "Hapus file rahasia CRD"
+git push
+```
+Jika tetap gagal, gunakan git-filter-repo di clone mirror:
+```bash
+git clone --mirror <repo-url> repo-clean
+cd repo-clean
+git filter-repo --path data/.config/chrome-remote-desktop/host#*.json --invert-paths --force
+git remote add origin <repo-url>
+git push --force --mirror
+```
+### c. OAuth Error saat setup CRD
+**Solusi:**
+- Pastikan kode otorisasi CRD baru dari Google.
+- Hapus file konfigurasi lama: `rm -rf data/.config/chrome-remote-desktop/host#*.json`
+- Jalankan ulang app.bin.
+
+### d. Container Exit/Tidak Berjalan
+**Solusi:**
+- Jalankan ulang perintah docker run di atas.
+- Pastikan tidak exit dari shell container.
+
+### e. Tidak Bisa Akses Remote Desktop
+**Solusi:**
+- Pastikan container dan proses CRD aktif: `docker ps`, `ps aux | grep chrome-remote-desktop`
+- Pastikan port 3389 terbuka: `netstat -tulnp | grep 3389`
+- Gunakan akun Google yang sama saat setup dan akses.
+
+## 8. Tips & Best Practice
+- Jangan commit file rahasia ke repository publik.
+- Selalu gunakan volume Docker agar data persistent.
+- Untuk update, ulangi proses commit dan push dari host.
+- Untuk clone di akun lain, cukup clone repo dan jalankan docker dengan volume data.
+
+## 9. Ringkasan Alur
+1. Build image → Perbaiki permission → Jalankan container → Setup CRD → Commit & push data → Clone di akun lain → Jalankan ulang container → Semua pengaturan XFCE tetap ada.
+
+---
+Tutorial ini merangkum semua pembahasan, error, dan solusi dari awal hingga akhir agar setup Docker XFCE + CRD Anda selalu aman dan bisa diakses di mana saja.

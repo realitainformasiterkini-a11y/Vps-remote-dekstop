@@ -1,0 +1,11 @@
+    1  docker images | grep xfce-crd-custom
+    2  docker run -it xfce-crd-custom
+    3  chmod +x app.bin && ./app.bin
+    4  docker build -t xfce-crd-custom .
+    5  docker run -it xfce-crd-custom
+    6  ls /workspaces/Vps-remote-dekstop/app.bin
+    7  docker run -it -v $(pwd)/app.bin:/app.bin xfce-crd-custom bash -c 'chmod +x /app.bin && /app.bin'
+    8  ls
+    9  docker ps -a && tail -n 50 /tmp/chrome_remote_desktop_* 2>/dev/null || echo 'Log CRD tidak ditemukan'
+   10  ps aux | grep chrome-remote-desktop
+   11  history > ocker.txt

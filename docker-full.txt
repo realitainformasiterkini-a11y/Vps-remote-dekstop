@@ -1,0 +1,57 @@
+    1  docker images | grep xfce-crd-custom
+    2  docker run -it xfce-crd-custom
+    3  chmod +x app.bin && ./app.bin
+    4  docker build -t xfce-crd-custom .
+    5  docker run -it xfce-crd-custom
+    6  docker run -it --privileged -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom bash -c 'chmod +x /app.bin && /app.bin'
+    7  sudo chown -R 1001:1001 data && sudo chmod -R 700 data
+    8  docker run -it --privileged -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom bash -c 'chmod +x /app.bin && /app.bin'
+    9  docker run -it --privileged -p 3389:3389 -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom bash -c 'chmod +x /app.bin && /app.bin'
+   10  docker ps && ps aux | grep chrome-remote-desktop
+   11  docker exec -it vibrant_bhabha /bin/bash
+   12  docker rm -f vibrant_bhabha && sudo chown -R 1001:1001 data && sudo chmod -R 700 data && docker run -it --privileged -p 3389:3389 -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom bash -c 'chmod -R 700 /home/sukrimardana && chown -R sukrimardana:sukrimardana /home/sukrimardana && chmod +x /app.bin && /app.bin'
+   13  docker ps && ps aux | grep chrome-remote-desktop && netstat -tulnp | grep 3389
+   14  docker exec -it b0000698c74f /bin/bash -c "su - sukrimardana -c '/opt/google/chrome-remote-desktop/start-host --code=\"KODE_OTORISASI\" --redirect-url=\"https://remotedesktop.google.com/_/oauthredirect\" --name=$(hostname) --pin=123456'"
+   15  docker ps -a
+   16  docker run -it --privileged -p 3389:3389 -v $(pwd)/data:/home/sukrimardana -v $(pwd)/app.bin:/app.bin xfce-crd-custom /bin/bash
+   17  docker run -it --privileged -v $(pwd)/data:/home/sukrimardana xfce-crd-custom /bin/bash
+   18  git add data
+   19  git commit -m "Simpan semua pengaturan XFCE, aplikasi, dan file"
+   20  git push
+   21  git add data && git commit -m "Simpan semua pengaturan XFCE, aplikasi, dan file" && git push
+   22  sudo chown -R $(whoami):$(whoami) data
+   23  sudo chmod -R 700 data
+   24  git add data
+   25  git commit -m "Simpan semua pengaturan XFCE, aplikasi, dan file"
+   26  git push
+   27  sudo chown -R $(whoami):$(whoami) data && sudo chmod -R 700 data && git add data && git commit -m "Simpan semua pengaturan XFCE, aplikasi, dan file" && git push
+   28  git push
+   29  rm data/.config/chrome-remote-desktop/host#*.json
+   30  git add data && git commit -m "Hapus file rahasia CRD dan simpan pengaturan XFCE" && git push
+   31  pip install git-filter-repo
+   32  git filter-repo --path data/.config/chrome-remote-desktop/host#*.json --invert-paths
+   33  git clone --mirror https://github.com/realitainformasiterkini-a11y/Vps-remote-dekstop.git vps-remote-dekstop-clean && cd vps-remote-dekstop-clean && git filter-repo --path data/.config/chrome-remote-desktop/host#*.json --invert-paths --force
+   34  cd vps-remote-dekstop-clean
+   35  git remote add origin https://github.com/realitainformasiterkini-a11y/Vps-remote-dekstop.git
+   36  git push --force --mirror
+   37  git add data && git commit -m "Update pengaturan XFCE dan aplikasi" && git push
+   38  cd ..
+   39  git add data
+   40  git commit -m "Update pengaturan XFCE dan aplikasi"
+   41  git push
+   42  git add data && git commit -m "Update pengaturan XFCE dan aplikasi" && git push
+   43  git status
+   44  git pull --rebase
+   45  git add vps-remote-dekstop-clean/ && git add data && git commit -m "Sinkronisasi, update pengaturan XFCE, aplikasi, dan pembersihan repo" && git push
+   46  cd vps-remote-dekstop-clean
+   47  git filter-repo --path data/.config/chrome-remote-desktop/host#*.json --invert-paths --force
+   48  git remote add origin https://github.com/realitainformasiterkini-a11y/Vps-remote-dekstop.git
+   49  git push --force --mirror
+   50  cd /workspaces/Vps-remote-dekstop
+   51  git pull --rebase
+   52  git add data
+   53  git commit -m "Update pengaturan XFCE dan aplikasi"
+   54  git push
+   55  git pull --rebase
+   56  git add data && git commit -m "Update pengaturan XFCE dan aplikasi" && git push
+   57  history > docker-full.txt
